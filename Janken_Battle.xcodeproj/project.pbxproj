@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5288849F20C3CACE007D90BD /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5288849F20C3CACE007D90BD /* Janken_Battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Janken_Battle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528884A220C3CACE007D90BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		528884A420C3CACE007D90BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		528884A720C3CACE007D90BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		528884A920C3CACF007D90BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		528884AC20C3CACF007D90BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		528884AE20C3CACF007D90BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		528884B320C3CACF007D90BD /* TestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528884B320C3CACF007D90BD /* Janken_BattleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Janken_BattleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528884B720C3CACF007D90BD /* TestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectTests.swift; sourceTree = "<group>"; };
 		528884B920C3CACF007D90BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		528884BE20C3CACF007D90BD /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528884BE20C3CACF007D90BD /* Janken_BattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Janken_BattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528884C220C3CACF007D90BD /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		528884C420C3CACF007D90BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		528884A020C3CACE007D90BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5288849F20C3CACE007D90BD /* TestProject.app */,
-				528884B320C3CACF007D90BD /* TestProjectTests.xctest */,
-				528884BE20C3CACF007D90BD /* TestProjectUITests.xctest */,
+				5288849F20C3CACE007D90BD /* Janken_Battle.app */,
+				528884B320C3CACF007D90BD /* Janken_BattleTests.xctest */,
+				528884BE20C3CACF007D90BD /* Janken_BattleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5288849E20C3CACE007D90BD /* TestProject */ = {
+		5288849E20C3CACE007D90BD /* Janken_Battle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528884C720C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProject" */;
+			buildConfigurationList = 528884C720C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_Battle" */;
 			buildPhases = (
 				5288849B20C3CACE007D90BD /* Sources */,
 				5288849C20C3CACE007D90BD /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = TestProject;
+			name = Janken_Battle;
 			productName = TestProject;
-			productReference = 5288849F20C3CACE007D90BD /* TestProject.app */;
+			productReference = 5288849F20C3CACE007D90BD /* Janken_Battle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		528884B220C3CACF007D90BD /* TestProjectTests */ = {
+		528884B220C3CACF007D90BD /* Janken_BattleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528884CA20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProjectTests" */;
+			buildConfigurationList = 528884CA20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_BattleTests" */;
 			buildPhases = (
 				528884AF20C3CACF007D90BD /* Sources */,
 				528884B020C3CACF007D90BD /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				528884B520C3CACF007D90BD /* PBXTargetDependency */,
 			);
-			name = TestProjectTests;
+			name = Janken_BattleTests;
 			productName = TestProjectTests;
-			productReference = 528884B320C3CACF007D90BD /* TestProjectTests.xctest */;
+			productReference = 528884B320C3CACF007D90BD /* Janken_BattleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		528884BD20C3CACF007D90BD /* TestProjectUITests */ = {
+		528884BD20C3CACF007D90BD /* Janken_BattleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528884CD20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProjectUITests" */;
+			buildConfigurationList = 528884CD20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_BattleUITests" */;
 			buildPhases = (
 				528884BA20C3CACF007D90BD /* Sources */,
 				528884BB20C3CACF007D90BD /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				528884C020C3CACF007D90BD /* PBXTargetDependency */,
 			);
-			name = TestProjectUITests;
+			name = Janken_BattleUITests;
 			productName = TestProjectUITests;
-			productReference = 528884BE20C3CACF007D90BD /* TestProjectUITests.xctest */;
+			productReference = 528884BE20C3CACF007D90BD /* Janken_BattleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5288849A20C3CACE007D90BD /* Build configuration list for PBXProject "TestProject" */;
+			buildConfigurationList = 5288849A20C3CACE007D90BD /* Build configuration list for PBXProject "Janken_Battle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5288849E20C3CACE007D90BD /* TestProject */,
-				528884B220C3CACF007D90BD /* TestProjectTests */,
-				528884BD20C3CACF007D90BD /* TestProjectUITests */,
+				5288849E20C3CACE007D90BD /* Janken_Battle */,
+				528884B220C3CACF007D90BD /* Janken_BattleTests */,
+				528884BD20C3CACF007D90BD /* Janken_BattleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		528884B520C3CACF007D90BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5288849E20C3CACE007D90BD /* TestProject */;
+			target = 5288849E20C3CACE007D90BD /* Janken_Battle */;
 			targetProxy = 528884B420C3CACF007D90BD /* PBXContainerItemProxy */;
 		};
 		528884C020C3CACF007D90BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5288849E20C3CACE007D90BD /* TestProject */;
+			target = 5288849E20C3CACE007D90BD /* Janken_Battle */;
 			targetProxy = 528884BF20C3CACF007D90BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/TestProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janken_Battle.app/Janken_Battle";
 			};
 			name = Debug;
 		};
@@ -500,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestProject.app/TestProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Janken_Battle.app/Janken_Battle";
 			};
 			name = Release;
 		};
@@ -547,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5288849A20C3CACE007D90BD /* Build configuration list for PBXProject "TestProject" */ = {
+		5288849A20C3CACE007D90BD /* Build configuration list for PBXProject "Janken_Battle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				528884C520C3CACF007D90BD /* Debug */,
@@ -556,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528884C720C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProject" */ = {
+		528884C720C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_Battle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				528884C820C3CACF007D90BD /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528884CA20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
+		528884CA20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_BattleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				528884CB20C3CACF007D90BD /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528884CD20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
+		528884CD20C3CACF007D90BD /* Build configuration list for PBXNativeTarget "Janken_BattleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				528884CE20C3CACF007D90BD /* Debug */,
