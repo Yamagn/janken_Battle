@@ -9,6 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func judge (_ myAnswer: Int, _ AnswerNumber: Int) {
+        if (myAnswer == 1 && AnswerNumber == 0) || (myAnswer == 2 && AnswerNumber == 1) || (myAnswer == 3 && AnswerNumber == 2) {
+            answerLabel.text = "ひきわけ！"
+        } else if (myAnswer == 1 && AnswerNumber == 1) || (myAnswer == 2 && AnswerNumber == 2) || (myAnswer == 3 && AnswerNumber == 0) {
+            answerLabel.text = "あなたの勝ち！"
+        } else if (myAnswer == 1 && AnswerNumber == 2) || (myAnswer == 2 && AnswerNumber == 0) || (myAnswer == 3 && AnswerNumber == 1) {
+            answerLabel.text = "あなたの負け！"
+        } else {
+            answerLabel.text = "卑怯者！！！！"
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +36,17 @@ class ViewController: UIViewController {
     
     var newAnswerNumber = 0
     
+    var myAnswer = 0
     
+    @IBAction func GuButton(_ sender: Any){
+        myAnswer = 1
+    }
+    @IBAction func ChokiButton(_ sender: Any) {
+        myAnswer = 2
+    }
+    @IBAction func PaButton(_ sender: Any) {
+        myAnswer = 3
+    }
     
     @IBAction func shuffleAction(_ sender: Any) {
         
@@ -36,17 +58,16 @@ class ViewController: UIViewController {
         answerNumber = newAnswerNumber
 
         if answerNumber == 0 {
-            answerLabel.text = "グー"
             answerImageView.image = UIImage(named: "gu")
         } else if answerNumber == 1 {
-            answerLabel.text = "チョキ"
             answerImageView.image = UIImage(named: "choki")
         } else if answerNumber == 2 {
-            answerLabel.text = "パー"
             answerImageView.image = UIImage(named: "pa")
         }
         
+        judge(myAnswer, newAnswerNumber)
     }
+    
     
     @IBOutlet weak var answerLabel: UILabel!
     
